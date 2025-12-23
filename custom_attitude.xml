@@ -1,0 +1,28 @@
+<?xml version="1.0"?>
+<mavlink>
+
+  <messages>
+
+    <message id="42000" name="CUSTOM_ATTITUDE">
+      <description>Custom attitude message for UDP test</description>
+
+      <field type="uint32_t" name="time_boot_ms">
+        Time since boot (ms)
+      </field>
+
+      <field type="float" name="roll">
+        Roll angle (rad)
+      </field>
+
+      <field type="float" name="pitch">
+        Pitch angle (rad)
+      </field>
+
+      <field type="float" name="yaw">
+        Yaw angle (rad)
+      </field>
+
+    </message>
+
+  </messages>
+</mavlink>
