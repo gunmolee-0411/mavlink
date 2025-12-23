@@ -3,17 +3,6 @@ MAVLink Custom Message (UDP)
 example of sending and receiving MAVLink messages over UDP using pymavlink, including a user-defined custom message.
 
 --------------------------------------------------------------------------------------------------------------------
-< Structure >  
-
-mav_custom/
-├── custom_attitude.xml   # Custom MAVLink message definition
-├── mavlink.py            # Auto-generated dialect (mavgen)
-├── sender.py             # Custom message sender
-├── receiver.py           # Custom message receiver (raw parsing)
-├── sender_attitude.py    # Standard MAVLink example (common)
-├── receiver_attitude.py  # Standard MAVLink example (common)
-
---------------------------------------------------------------------------------------------------------------------
 Messages
 
 - Standard MAVLink
